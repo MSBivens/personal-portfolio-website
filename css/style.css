@@ -1,3 +1,8 @@
+/* Sky #CAEBF2 */
+/* Carbon #A9A9A9 */
+/* Artichoke #89937C */
+/* Neutral #EFEFEF */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,4 +10,34 @@
 
 ul {
     list-style-type: none;
+}
+
+h1 {
+    font-size: xxx-large;
+    text-align: end;
+}
+
+/* Container Styling */
+
+.div-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Side Nav Styling */
+
+.div-nav {
+    background-color: #CAEBF2;
+    width: 25%;
+    text-align: center;
+    line-height: 2em;
+}
+
+/* Main Styling */
+
+.div-main {
+    background-color: #A9A9A9;
+    /* background-color: #89937C; */
+    /* background-color: #EFEFEF; */
+    width: 50%;
 }
