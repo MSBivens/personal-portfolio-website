@@ -8,13 +8,18 @@
     padding: 0;
 }
 
+p {
+    font-size: 14px;
+    line-height: 1.15em;
+    font-weight: 400;
+}
+
 ul {
     list-style-type: none;
 }
 
 h1 {
     font-size: xxx-large;
-    text-align: end;
 }
 
 /* Container Styling */
@@ -28,16 +33,114 @@ h1 {
 
 .div-nav {
     background-color: #CAEBF2;
-    width: 25%;
+    width: 20%;
     text-align: center;
     line-height: 2em;
+    padding-top: 20px;
+    overflow-y: scroll;
+}
+
+#div-nav-photo {
+    margin-bottom: 20px;
+}
+
+#photo-me {
+    height: 150px;
+    border-radius: 100%;
 }
 
 /* Main Styling */
 
 .div-main {
-    background-color: #A9A9A9;
+    /* background-color: #A9A9A9; */
     /* background-color: #89937C; */
     /* background-color: #EFEFEF; */
-    width: 50%;
+    width: 60%;
+}
+/* how to organize??? */
+.div-section-title {
+    /* background-color: aqua; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.txt-section-title {
+    font-size: 5vw;
+    line-height: 0.85em;
+    text-align: end;
+}
+
+.row {
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.col-lg-4 {
+    /* background-color: brown; */
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.skill-header {
+    font-size: larger;
+}
+
+/* Education Styling */
+
+
+
+/* Experience & Project Styling */
+.div-project-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 8px 60px 16px;
+}
+
+.div-project-block {
+    width: 19%;
+    min-height: 100px;
+    min-width: 280px;
+    margin-right: 14px;
+    padding-bottom: 20px;
+}
+
+.div-project-block-content {
+    /* background-color: brown; */
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+}
+
+.div-project-block-content.end {
+    border-bottom-style: none;
+}
+
+.div-project-block-content-left {
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+
+.div-project-block-content-right {
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.project-header {
+    color: black;
+}
+
+.normal-text {
+    color: black;
+}
+
+.project-link {
+    text-decoration: none;
+    color: black;
 }
