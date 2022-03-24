@@ -22,6 +22,15 @@ h1 {
     font-size: xxx-large;
 }
 
+/* Description Styling */
+.div-header {
+    margin: auto;
+}
+
+#text-description {
+    font-size: smaller;
+}
+
 /* Container Styling */
 
 .div-container {
