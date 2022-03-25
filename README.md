@@ -9,7 +9,7 @@
 
 <!-- PROJECT SHIELDS -->
 [![Forks][forks-shield]][forks-url]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/msbivens/]
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/msbivens/)
 
 
 
@@ -17,12 +17,9 @@
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
 
-<!-- PROJECT LOGO -->
+<!-- PROJECT HEADER -->
 <br />
 <div align="center">
-  <a href="https://github.com/MSBivens/personal_portfolio_website">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
 <h3 align="center">Personal Portfolio Website</h3>
 
