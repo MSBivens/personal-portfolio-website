@@ -69,7 +69,7 @@ This project contains all of the code for my personal portfolio website and incl
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+<!-- Add Devicon -->
 
 <!-- ROADMAP -->
 ## Roadmap
