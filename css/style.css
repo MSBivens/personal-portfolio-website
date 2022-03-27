@@ -93,8 +93,14 @@ h1 {
     text-align: center;
 }
 
+/* Tech Skills Styling */
 .skill-header {
     font-size: larger;
+}
+
+.div-tech-skills {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Education Styling */

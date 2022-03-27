@@ -66,10 +66,9 @@ This project contains all of the code for my personal portfolio website and incl
 ### Built With
 
 * [Bootstrap](https://getbootstrap.com)
+* [Devicon](https://devicon.dev/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- Add Devicon -->
 
 <!-- ROADMAP -->
 ## Roadmap
