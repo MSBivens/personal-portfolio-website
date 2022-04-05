@@ -30,7 +30,7 @@
             <ul class="navigation"> <!-- Turn these into links to jump to sections -->
                 <li>Interpersonal Skills</li>
                 <li>Technical Skills</li>
-                <li>Education</li> <!-- Or Education History -->
+                <li>Education</li>
                 <li>Professional Experience</li>
                 <li>Personal Experience</li>
                 <li>Technical Projects</li>
@@ -1065,9 +1065,18 @@
                 <p class="txt-section-title">Contact</p>
             </div>
             <div>
-                Name
-                Email
-                Message Space
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="contactname" placeholder="Name">
+                    <label for="floatingPassword">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave your message here" id="floatingTextarea" style="height: 100px"></textarea>
+                    <label for="floatingTextarea">Message</label>
+                </div>
             </div>
         </div>
     </div>
