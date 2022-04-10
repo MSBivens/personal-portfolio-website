@@ -13,38 +13,44 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
 </head>
 <body>
-    <div class="div-header"> <!-- Move to just right side? -->
+    <div class="div-header"> <!-- TODO Move to just right side? -->
         <p id="text-description">My name is Mike, I am breaking into the tech industry and looking to work with web3 technology. Through my background in higher education, I have developed organizational and interpersonal skills that support strong critical assessment and advanced my ability to work with dynamic teams, foster leadership, and encourage quality engagement. I have also led teams as a project manager working with NFTs and metaverses.</p>
     </div>
     <div class="div-container">
-
         <!-- Side Nav -->
-        <div class="div-nav">
-            <div id="div-nav-photo">
-                <img src="assets/me_square.jpg" id="photo-me">
+        <aside id="side-nav">
+            <div class="text-center">
+                <div id="div-nav-photo">
+                    <img src="assets/me_square.jpg" id="photo-me">
+                </div>
+                <h2>Mike Bivens</h2>
+                <span id="nav-subtext">
+                    <p>He/Him</p>
+                    <p>Full Stack Developer</p>
+                    <p>Freelance Web3 Operator</p>
+                </span>
             </div>
-            <h2>Mike Bivens</h2>
-            <p id="pronouns">He/Him</p>
-            <h5>Full Stack Developer</h3>
-            <h5>Freelance Web3 Operator</h3>
-            <ul class="navigation"> <!-- Turn these into links to jump to sections -->
-                <li>Interpersonal Skills</li>
-                <li>Technical Skills</li>
-                <li>Education</li>
-                <li>Professional Experience</li>
-                <li>Personal Experience</li>
-                <li>Technical Projects</li>
-                <li>Non-Technical Projects</li>
-                <li>Organizations</li>
-                <li>Contact</li>
-            </ul>
-            <ul id="social-links"> <!-- Display in row -->
+            <div class="text-center" id="nav-options">
+                <ul class="navigation"> <!-- TODO Turn these into links to jump to sections -->
+                    <li><a href="#">Interpersonal Skills</a></li>
+                    <li><a href="#">Technical Skills</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Professional Experience</a></li>
+                    <li><a href="#">Personal Experience</a></li>
+                    <li><a href="#">Technical Projects</a></li>
+                    <li><a href="#">Non-Technical Projects</a></li>
+                    <li><a href="#">Organizations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div> <!-- Might help to make these divs?-->
+            <ul class="text-center social-link"> <!-- HELP Display in row -->
                 <li><img src="assets/linkedin.png" alt="linkedin"></li>
                 <li><img src="assets/github.png" alt="github"></li>
                 <li><img src="assets/twitter.png" alt="twitter"></li>
             </ul>
-            <a href="#" download="proposed_file_name">Download Resume</a> <!-- TO DO -->
-        </div>
+            <!-- TODO style/center button, insert resume-->
+            <button>Download Resume</button>
+        </aside>
         <div class="div-main">
 
             <!-- Interpersonal Skills -->
@@ -52,7 +58,7 @@
                 <p class="txt-section-title">Interpersonal Skills</p>
             </div>
             <div class="div-inter-skills">
-                <div class="col-md-3">
+                <div class="col-md-3 text-center">
                     <div class="div-skill-box">
                         <span class="span-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-kanban" viewBox="0 0 16 16">
@@ -64,7 +70,7 @@
                         <p class="skill-description">Experience with leading global team using Agile</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 text-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
                         <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                         <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
@@ -73,35 +79,28 @@
                     <p class="skill-header">Community Development</p>
                     <p>Guided creation and growth of communities</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 text-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check-fill" viewBox="0 0 16 16">
                         <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-5.146-5.146-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
                     </svg>
                     <p class="skill-header">Time Management</p>
                     <p>Managed several projects concurrently</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 text-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-align-middle" viewBox="0 0 16 16">
                         <path d="M6 13a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v10zM1 8a.5.5 0 0 0 .5.5H6v-1H1.5A.5.5 0 0 0 1 8zm14 0a.5.5 0 0 1-.5.5H10v-1h4.5a.5.5 0 0 1 .5.5z"/>
                     </svg>
                     <p class="skill-header">Conflict Communication</p>
                     <p>Found a balance between conflicting opinions</p>
                 </div>
-                <!-- <div class="col-lg-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-projector-fill" viewBox="0 0 16 16">
-                        <path d="M2 4a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1h6a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2Zm.5 2h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1ZM14 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm-12 1a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5Z"/>
-                    </svg>
-                    <p class="skill-header">Facilitation</p>
-                    <p>History of organized, developed, and successful workshops</p>
-                </div> -->
-                <div class="col-md-3">
+                <div class="col-md-3 text-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
                         <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                     </svg>
                     <p class="skill-header">Decision Making</p>
                     <p>Decisive in path forward</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 text-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard2-data-fill" viewBox="0 0 16 16">
                         <path d="M10 .5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5.5.5 0 0 1-.5.5.5.5 0 0 0-.5.5V2a.5.5 0 0 0 .5.5h5A.5.5 0 0 0 11 2v-.5a.5.5 0 0 0-.5-.5.5.5 0 0 1-.5-.5Z"/>
                         <path d="M4.085 1H3.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1h-.585c.055.156.085.325.085.5V2a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 4 2v-.5c0-.175.03-.344.085-.5ZM10 7a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7Zm-6 4a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm4-3a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0V9a1 1 0 0 1 1-1Z"/>
@@ -109,13 +108,6 @@
                     <p class="skill-header">Strategic Planning</p>
                     <p>Capable of using feedback and making adjustments</p>
                 </div>
-                <!-- <div class="col-lg-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                    </svg>
-                    <p class="skill-header">Research</p>
-                    <p>Adept with investigating and collecting information</p>
-                </div> -->
             </div>
 
             <!-- Technical Skills -->

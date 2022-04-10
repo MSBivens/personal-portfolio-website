@@ -9,8 +9,8 @@
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.15em;
+    /* font-size: 14px; */
+    /* line-height: 1.15em; */
     font-weight: 400;
 }
 
@@ -32,21 +32,24 @@ h1 {
 }
 
 /* Container Styling */
-
 .div-container {
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* display: flex; */
+    /* justify-content: center; */
 }
 
 /* Side Nav Styling */
-
-.div-nav {
+#side-nav {
     background-color: #CAEBF2;
-    width: 20%;
-    text-align: center;
-    line-height: 2em;
-    padding-top: 20px;
+    padding-top: 3em;
+    padding-bottom: 40px;
+    float: left0;
+    width: 300px;
+    position: fixed;
     overflow-y: scroll;
+    z-index: 1001;
 }
 
 #div-nav-photo {
@@ -58,14 +61,27 @@ h1 {
     border-radius: 100%;
 }
 
+#nav-subtext {
+    font-size: 10px;
+    text-transform: uppercase;
+    display: block;
+    line-height: 25%;
+}
+
+#social-link li{
+    display: inline;
+}
+
 /* Main Styling */
 
 .div-main {
     /* background-color: #A9A9A9; */
     /* background-color: #89937C; */
     /* background-color: #EFEFEF; */
-    width: 60%;
+    width: calc(100% - 300px);
+    float: right;
 }
+
 /* how to organize??? */
 .div-section-title {
     /* background-color: aqua; */
@@ -87,11 +103,11 @@ h1 {
     margin-left: 15px;
 }
 
-.col-lg-4 {
+/* .col-lg-4 { */
     /* background-color: brown; */
-    margin-bottom: 1.5em;
-    text-align: center;
-}
+    /* margin-bottom: 1.5em; */
+    /* text-align: center; */
+/* } */
 
 /* Tech Skills Styling */
 .skill-header {
