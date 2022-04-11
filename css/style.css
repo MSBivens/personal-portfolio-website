@@ -41,6 +41,13 @@ h1 {
 }
 
 /* Side Nav Styling */
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
 #side-nav {
     background-color: #CAEBF2;
     padding-top: 3em;
@@ -70,6 +77,19 @@ h1 {
 
 #social-link li{
     display: inline;
+
+}
+
+/* WTF HELP */
+#div-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#div-resume {
+    display: flex;
+    justify-content: center;
 }
 
 /* Main Styling */
