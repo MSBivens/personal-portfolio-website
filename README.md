@@ -69,9 +69,11 @@ This project contains all of the code for my personal portfolio website and incl
 <!-- ROADMAP -->
 ## Roadmap
 
+- [ ] Implement Semantic HTML
 - [ ] Refactor front-end
-- [ ] Move projects to database and pull to webpage
-- [ ] Add an "all projects" page
+- [ ] Implement JavaScript
+- [ ] Implement database for projects
+- [ ] Add an "projects" page
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
