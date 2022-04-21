@@ -47,6 +47,7 @@ ul {
     position: fixed;
     overflow-y: scroll;
     z-index: 1001;
+    height: 100vh;
 }
 
 #div-nav-photo {
@@ -131,14 +132,19 @@ ul {
     margin: 0 auto;
 }
 
-/* Tech Skills Styling */
 .skill-header {
     font-size: larger;
 }
 
+/* Tech Skills Styling */
 .div-tech-skills {
     display: flex;
     flex-wrap: wrap;
+}
+
+.img-tech {
+    height: 150px;
+    margin: 25px 30px;
 }
 
 /* Education Styling */
