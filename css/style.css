@@ -24,7 +24,7 @@ ul {
     background-color: #CAEBF2;
     padding-top: 3em;
     padding-bottom: 40px;
-    float: left0;
+    float: left;
     width: 300px;
     position: fixed;
     overflow-y: scroll;
@@ -81,6 +81,7 @@ ul {
 
 .div-main {
     width: calc(100% - 300px);
+    max-width: 1000px;
     float: right;
 }
 
@@ -138,7 +139,7 @@ ul {
 .div-project-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 40px 8px 60px 16px;
+    padding: 40px 8px 20px 16px;
 }
 
 .div-project-block {
