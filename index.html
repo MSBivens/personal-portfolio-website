@@ -28,48 +28,43 @@
                 </span>
             </div>
             <div class="text-center">
-                <ul class="navigation"> <!-- TODO Turn these into links to jump to sections -->
-                    <li><a href="#">Interpersonal Skills</a></li>
-                    <li><a href="#">Technical Skills</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Professional Experience</a></li>
-                    <li><a href="#">Personal Experience</a></li>
-                    <li><a href="#">Technical Projects</a></li>
-                    <li><a href="#">Non-Technical Projects</a></li>
-                    <li><a href="#">Organizations</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul class="ul-navigation">
+                    <li><a href="#inter_section">Interpersonal Skills</a></li>
+                    <li><a href="#techskills_section">Technical Skills</a></li>
+                    <li><a href="#edu_section">Education</a></li>
+                    <li><a href="#proxp_section">Professional Experience</a></li>
+                    <li><a href="#perxp_section">Personal Experience</a></li>
+                    <li><a href="#techpro_section">Technical Projects</a></li>
+                    <li><a href="#nontechpro_section">Non-Technical Projects</a></li>
+                    <li><a href="#org_section">Organizations</a></li>
+                    <li><a href="#contact_section">Contact</a></li>
                 </ul>
             </div>
             <div id="div-social">
-                <ul class="text-center social-link"> <!-- HELP Display in row -->
+                <ul class="text-center social-link">
                     <li><img src="assets/linkedin.png" alt="linkedin"></li>
                     <li><img src="assets/github.png" alt="github"></li>
                     <li><img src="assets/twitter.png" alt="twitter"></li>
                 </ul>
             </div>
-            <!-- TODO style/center button, insert resume-->
             <div id="div-resume">
-                <button id="resume">Download Resume</button>
+                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Download Resume</a>
             </div>
         </aside>
 
         <div class="div-main">
             <!-- Description -->
             <section class="section">
-                <div >
-                    <div class="div-header">
-                        <p id="text-description">My name is Mike, I am breaking into the tech industry and looking to work with web3 technology. Through my background in higher education, I have developed organizational and interpersonal skills that support strong critical assessment and advanced my ability to work with dynamic teams, foster leadership, and encourage quality engagement. I have also led teams as a project manager working with NFTs and metaverses.</p>
-                    </div>
-                </div>
+                <p id="text-description">My name is Mike, I am breaking into the tech industry and looking to work with web3 technology. Through my background in higher education, I have developed organizational and interpersonal skills that support strong critical assessment and advanced my ability to work with dynamic teams, foster leadership, and encourage quality engagement. I have also led teams as a project manager working with NFTs and metaverses.</p>
             </section>
             
             <!-- Interpersonal Skills -->
-            <section class="section">
+            <section class="section" id="inter_section">
                 <div class="div-section-title">
                     <p class="txt-section-title">Interpersonal Skills</p>
                 </div>
-                <div class="row div-inter-skills">
-                    <div class="col-md-3 text-center">
+                <div class="row">
+                    <div class="col text-center">
                         <div class="div-skill-box">
                             <span class="span-icon">
                                 <link href='https://css.gg/album.css' rel='stylesheet'><i class="gg-album"></i>
@@ -80,102 +75,93 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 text-center">
-                        <div class="div-skill-box">
-                            <span class="span-icon">
-                                <link href='https://css.gg/community.css' rel='stylesheet'><i class="gg-community"></i>
-                            </span>
-                            <div>
-                                <p class="skill-header">Community Development</p>
-                                <p class="skill-description">Guided creation and growth of communities</p>
-                            </div>
+                    <div class="col text-center div-skill-box">
+                        <span class="span-icon">
+                            <link href='https://css.gg/community.css' rel='stylesheet'><i class="gg-community"></i>
+                        </span>
+                        <div>
+                            <p class="skill-header">Community Development</p>
+                            <p class="skill-description">Guided creation and growth of communities</p>
                         </div>
                     </div>
-                    <div class="col-md-3 text-center">
-                        <div class="div-skill-box">
-                            <span class="span-icon">
-                                <link href='https://css.gg/calendar-dates.css' rel='stylesheet'><i class="gg-calendar-dates"></i>
-                            </span>
-                            <div>
-                                <p class="skill-header">Time Management</p>
-                                <p class="skill-description">Managed several projects concurrently</p>
-                            </div>
+                    <div class="col text-center div-skill-box">
+                        <span class="span-icon">
+                            <link href='https://css.gg/calendar-dates.css' rel='stylesheet'><i class="gg-calendar-dates"></i>
+                        </span>
+                        <div>
+                            <p class="skill-header">Time Management</p>
+                            <p class="skill-description">Managed several projects concurrently</p>
                         </div>
                     </div>
-                    <div class="col-md-3 text-center">
-                        <div class="div-skill-box">
-                            <span class="span-icon">
-                                <link href='https://css.gg/attribution.css' rel='stylesheet'><i class="gg-attribution"></i>
-                            </span>
-                            <div>
-                                <p class="skill-header">Conflict Communication</p>
-                                <p class="skill-description">Found a balance between conflicting opinions</p>
-                            </div>
+                    <div class="w-100"></div>
+                    <div class="col text-center div-skill-box">
+                        <span class="span-icon">
+                            <link href='https://css.gg/attribution.css' rel='stylesheet'><i class="gg-attribution"></i>
+                        </span>
+                        <div>
+                            <p class="skill-header">Conflict Communication</p>
+                            <p class="skill-description">Found a balance between conflicting opinions</p>
                         </div>
                     </div>
-                    <div class="col-md-3 text-center">
-                        <div class="div-skill-box">
-                            <span class="span-icon">
-                                <link href='https://css.gg/list-tree.css' rel='stylesheet'><i class="gg-list-tree"></i>
-                            </span>
-                            <div>
-                                <p class="skill-header">Decision Making</p>
-                                <p class="skill-description">Decisive in path forward</p>
-                            </div>
+                    <div class="col text-center div-skill-box">
+                        <span class="span-icon">
+                            <link href='https://css.gg/list-tree.css' rel='stylesheet'><i class="gg-list-tree"></i>
+                        </span>
+                        <div>
+                            <p class="skill-header">Decision Making</p>
+                            <p class="skill-description">Decisive in path forward</p>
                         </div>
                     </div>
-                    <div class="col-md-3 text-center">
-                        <div class="div-skill-box">
-                            <span class="span-icon">
-                                <link href='https://css.gg/arrow-long-right-c.css' rel='stylesheet'><i class="gg-arrow-long-right-c"></i>
-                            </span>
-                            <div>
-                                <p class="skill-header">Strategic Planning</p>
-                                <p class="skill-description">Capable of using feedback and making adjustments</p>
-                            </div>
+                    <div class="col text-center div-skill-box">
+                        <span class="span-icon">
+                            <link href='https://css.gg/arrow-long-right-c.css' rel='stylesheet'><i class="gg-arrow-long-right-c"></i>
+                        </span>
+                        <div>
+                            <p class="skill-header">Strategic Planning</p>
+                            <p class="skill-description">Capable of using feedback and making adjustments</p>
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- Technical Skills -->
-            <section class="section">
+            <section class="section" id="techskills_section">
                 <div class="div-section-title">
                     <p class="txt-section-title">Technical Skills</p>
                 </div>
-                <div id="div-tech-skills">
+                <div id="row">
                     <!-- Phase 2, each will have a link to view all projects where each were used -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="img-tech" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="col img-tech" />
                     <!-- CSS -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="img-tech" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="col img-tech" />
                     <!-- JavaScript -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="img-tech" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="col img-tech" />
                     <!-- Python -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" class="img-tech" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" class="col img-tech" />
+                    <div class="w-100"></div>
                     <!-- Flask -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" class="img-tech" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" class="col img-tech" />
                     <!-- SQL -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" class="img-tech" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" class="col img-tech" />
                     <!-- Bootstrap -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" class="img-tech" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" class="col img-tech" />
                     <!-- jQuery -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg" class="img-tech" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg" class="col img-tech" />
                 </div>
             </section>
 
             <!-- Education -->
-            <section class="section">
+            <section class="section" id="edu_section">
                 <div class="div-section-title">
                     <p class="txt-section-title">Education</p>
                 </div>
-                <div id="div-edu-container">
+                <div>
                     <div class="accordion" id="accordionBasic">
-                        <!-- Coding Dojo -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Google Project Management Certificate
-                            </button>
+                                    <p>Google Project Management Certificate</p>
+                                </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionBasic">
                                 <div class="accordion-body">
@@ -188,7 +174,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    University of Idaho B.S.
+                                    <p>University of Idaho B.S.</p>
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionBasic">
@@ -203,7 +189,7 @@
             </section>
 
             <!-- Professional Experience -->
-            <section class="section">
+            <section class="section" id="proxp_section">
                 <div class="div-section-title">
                     <p class="txt-section-title">Professional Experience</p>
                 </div>
@@ -530,7 +516,7 @@
             </section>
 
             <!-- Personal Experience -->
-            <section class="section">
+            <section class="section" id="perxp_section">
                 <div class="div-section-title">
                     <p class="txt-section-title">Personal Experience</p>
                 </div>
@@ -645,7 +631,7 @@
             </section>
 
             <!-- Technical Projects -->
-            <section class="section">
+            <section class="section" id="techpro_section">
                 <div class="div-section-title">
                     <p class="txt-section-title">Technical Projects</p>
                 </div>
@@ -919,7 +905,7 @@
             </section>
 
             <!-- Non-Techncal Projects -->
-            <section class="section">
+            <section class="section" id="nontechpro_section">
                 <div class="div-section-title">
                     <p class="txt-section-title">Non-Technical Projects</p>
                 </div>
@@ -1087,7 +1073,7 @@
             </section>
 
             <!-- Organizations -->
-            <section class="section">
+            <section class="section" id="org_section">
                 <div class="div-section-title">
                     <p class="txt-section-title">Organizations</p>
                 </div>
@@ -1097,7 +1083,7 @@
             </section>
 
             <!-- Contact -->
-            <section class="section">
+            <section class="section" id="contact_section">
                 <div class="div-section-title">
                     <p class="txt-section-title">Contact</p>
                 </div>

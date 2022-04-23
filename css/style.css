@@ -12,32 +12,14 @@ ul {
     list-style-type: none;
 }
 
-/* Description Styling */
-.div-header {
+/* Container Styling */
+.div-container {
+    width: 75%;
+    position: relative;
     margin: auto;
 }
 
-#text-description {
-    font-size: smaller;
-}
-
-/* Container Styling */
-.div-container {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    /* display: flex; */
-    /* justify-content: center; */
-}
-
 /* Side Nav Styling */
-
-.navigation {
-    display: flex;
-    flex-direction: column;
-    padding-right: 30px;
-}
-
 #side-nav {
     background-color: #CAEBF2;
     padding-top: 3em;
@@ -66,16 +48,28 @@ ul {
     line-height: 25%;
 }
 
-#social-link li{
-    display: inline;
-
+.ul-navigation {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    list-style-type: none;
 }
 
-/* WTF HELP */
+.ul-navigation a:link{
+    text-decoration: none;
+    color: black
+}
+
 #div-social {
+    margin-left: 60px;
+}
+
+.social-link{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+}
+
+.social-link li{
+    padding-right: 15px;
 }
 
 #div-resume {
@@ -108,12 +102,6 @@ ul {
 }
 
 /* Interpersonal Skills Styling */
-
-@media (min-width:992px)
-.col-md-3 {
-    width: 33.33333%
-}
-
 .div-skill-box {
     position: relative;
     z-index: 0;
@@ -136,20 +124,15 @@ ul {
     font-size: larger;
 }
 
-/* Tech Skills Styling */
-.div-tech-skills {
-    display: flex;
-    flex-wrap: wrap;
+.skill-description {
+    font-size: smaller;
 }
 
+/* Tech Skills Styling */
 .img-tech {
     height: 150px;
     margin: 25px 30px;
 }
-
-/* Education Styling */
-
-
 
 /* Experience & Project Styling */
 .div-project-container {
@@ -167,7 +150,6 @@ ul {
 }
 
 .div-project-block-content {
-    /* background-color: brown; */
     display: flex;
     align-items: flex-start;
     padding-top: 2px;
