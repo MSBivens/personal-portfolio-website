@@ -8,8 +8,8 @@
 
 
 <!-- PROJECT SHIELDS -->
-[![Forks][forks-shield]][forks-url]
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/msbivens/)
+
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
 
@@ -62,17 +62,18 @@ This project contains all of the code for my personal portfolio website and incl
 ### Built With
 
 * [Bootstrap](https://getbootstrap.com)
-* [Devicon](https://devicon.dev/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
 
+- [ ] Launch v1
 - [ ] Implement Semantic HTML
 - [ ] Refactor front-end
 - [ ] Implement JavaScript
 - [ ] Implement database for projects
+- [ ] Collate XP & Project sections & use tags
 - [ ] Add an "projects" page
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -93,9 +94,7 @@ Project Link: [https://github.com/MSBivens/personal_portfolio_website](https://g
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Devicon](https://devicon.dev/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
