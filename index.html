@@ -1,1123 +1,711 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mike Bivens</title>
-    <!-- Custom CSS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <!-- Local CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- Boostrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Devicon Implementation -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
-    <!-- Font Implementation -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="div-container">
-        <!-- Side Nav -->
-        <aside id="side-nav">
-            <div class="text-center">
-                <div id="div-nav-photo">
-                    <img src="assets/me_square.jpg" id="photo-me">
+    <div class="wrapper d-flex align-items-stretch">
+        <div id="navbar" class="h-100 sticky-top">
+            <nav id="sidebar">
+                <div class="custom-menu">
+                    <button type="button" id="sidebarCollapse" class="btn btn-primary"></button>
                 </div>
-                <h2>Mike Bivens</h2>
-                <span id="nav-subtext">
-                    <p>He/Him</p>
-                    <p>Full Stack Developer</p>
-                    <p>Freelance Web3 Operator</p>
-                </span>
-            </div>
-            <div class="text-center">
-                <nav class="navbar-header">
-                    <Button class = "navbar-toggle" type = "button"Data-target = "Navbar-collapse" data-toggle = "collapse">
-                        menu
-                    </Button>
-                </nav>
-                <ul class="ul-navigation nav navbar-nav collapse navbar-collapse">
-                    <li><a href="#techpro_section">Technical Projects</a></li>
-                    <li><a href="#inter_section">Interpersonal Skills</a></li>
-                    <li><a href="#techskills_section">Technical Skills</a></li>
-                    <li><a href="#proxp_section">Professional Experience</a></li>
-                    <li><a href="#perxp_section">Personal Experience</a></li>
-                    <li><a href="#nontechpro_section">Non-Technical Projects</a></li>
-                    <li><a href="#contact_section">Contact</a></li>
-                    <li><a href="#edu_section">Education</a></li>
+                <div class="img bg-wrap text-center py-4">
+                    <div class="user-logo">
+                        <div class="img" style="background-image: url(images/me_square.jpg);"></div>
+                        <h3>Mike Bivens</h3>
+                        <span>
+                            He/Him | Full Stack Developer
+                        </span>
+                    </div>
+                </div>
+                <ul class="list-unstyled components mb-5 overflow-auto">
+                    <li>
+                        <a href="#techpro"><span class="mr-3"></span> Technical Projects</a>
+                    </li>
+                    <li>
+                        <a href="#tech-skills"><span class="mr-3"></span> Technical Skills</a>
+                    </li>
+                    <li>
+                        <a href="#inter-skills"><span class="mr-3"></span> Interpersonal Skills</a>
+                    </li>
+                    <li>
+                        <a href="#pro-xp"><span class="mr-3"></span> Professional Experience</a>
+                    </li>
+                    <li>
+                        <a href="#per-xp"><span class="mr-3"></span> Personal Experience</a>
+                    </li>
+                    <li>
+                        <a href="#ntpro"><span class="mr-3"></span> Non-Technical Projects</a>
+                    </li>
+                    <li>
+                        <a href="#education"><span class="mr-3"></span> Education</a>
+                    </li>
+                    <li>
+                        <a href="#contact"><span class="mr-3"></span> Contact</a>
+                    </li>
+                    <li>
+                        <a href="files/mbivens_resume.pdf" download="mbivens_resume.pdf"><span class="mr-3"><small class="d-flex align-items-center justify-content-center"></small></span> Download Resume</a>
+                    </li>
+                    <li>
+                        <ul class="list-unstyled list-inline text-center">
+                            <li class="list-inline-item"><a href="https://linkedin.com/in/msbivens/"><img src="images/linkedin.png"></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/MSBivens"><img src="images/github.png"></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/MSBivens_"><img src="images/twitter.png"></a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </div>
-            <div id="div-social">
-                <ul class="text-center social-link">
-                    <li><a href="https://linkedin.com/in/msbivens/"><img src="assets/linkedin.png" alt="linkedin"></a></li>
-                    <li><a href="https://github.com/MSBivens"><img src="assets/github.png" alt="github"></a></li>
-                    <li><a href="https://twitter.com/MSBivens_"><img src="assets/twitter.png" alt="twitter"></a></li>
-                </ul>
-            </div>
-            <div id="div-resume">
-                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Download Resume</a>
-            </div>
-        </aside>
+            </nav>
+        </div>
 
-        <div class="div-main">
+    <!-- Page Content  -->
+        <div id="content" class="p-4 p-md-5 pt-5">
             <!-- Description -->
-            <section class="section">
-                <p id="text-description">My name is Mike, I am breaking into the tech industry and looking to work with web3 technology. Through my background in higher education, I have developed organizational and interpersonal skills that support strong critical assessment and advanced my ability to work with dynamic teams, foster leadership, and encourage quality engagement. I have also led teams as a project manager working with NFTs and metaverses.</p>
+            <section>
+                <p>My name is Mike, after leading teams as a project manager working with NFTs and metaverses I am looking to continue my work with web3 in a developer capcity. Through my background in higher education, I have developed organizational and interpersonal skills that support strong critical assessment and advanced my ability to work with dynamic teams, foster leadership, and encourage quality engagement.</p>
             </section>
-            
             <!-- Technical Projects -->
-            <section class="section" id="techpro_section">
-                <div class="div-section-title">
-                    <p class="txt-section-title">Technical Projects</p>
+            <section id="techpro">
+                <h2 class="mb-4">Technical Projects</h2>
+                <div class="container">
+                    <div class="row">
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Personal Portfolio Project</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tools</td>
+                                    <td>HTML, CSS, JS, Python, Flask, Bootstrap</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2022</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="https://github.com/MSBivens/personal-portfolio-website" class="text-body">github.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>A portfolio website used to display various experiences and projects.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Doors vs Wheels</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tools</td>
+                                    <td>HTML, CSS, JS, Python, Flask, Bootstrap</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2022</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="https://github.com/MSBivens/doors_vs_wheels" class="text-body">github.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>Inspired by the TikTok trend, are there more doors or wheels in the world?</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Learn Web3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tools</td>
+                                    <td>HTML, CSS, JS, Python, Flask, Tailwind</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2022</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="https://github.com/MSBivens/learn_web3" class="text-body">github.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>A resource website for learning about web3.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <div class="div-project-container">
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">Personal Portfolio Website</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Language(s)</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">HTML, CSS, JS</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2022</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text"><a href="https://github.com/MSBivens/personal-portfolio-website" class="project-link">github.com</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">A portfolio website used to display various experiences and projects.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">Algo Practice</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Language(s)</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">JS, Python, Solidity</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2022 - Present</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text"><a href="https://github.com/MSBivens/Algo-Practice" class="project-link">github.com</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">A repo of code from solving algorithms.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">Doors vs Wheels</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Language(s)</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">HTML, Python</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2022 - Present</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text"><a href="https://github.com/MSBivens/doors_vs_wheels" class="project-link">github.com</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Inspired by the TikTok trend, are there more doors or wheels in the world?</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">Learn Web3</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Language(s)</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">TBD</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2022 - Present</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text"><a href="https://github.com/MSBivens/learn_web3" class="project-link">github.com</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">A resource website for learning about web3.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">Bootcamp Algorithms</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Language(s)</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">TBD</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2022 - Present</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text"><a href="https://github.com/MSBivens/bootcamp_algorithms" class="project-link">github.com</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Collection of code for the algorithm course with Coding Dojo.</div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="container">
+                    <div class="row">
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Bootcamp Algorithms</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tools</td>
+                                    <td>Python</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2022</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="https://github.com/MSBivens/bootcamp_algorithms" class="text-body">github.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>Collection of code for the algorithm course with Coding Dojo.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Algo Practice</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tools</td>
+                                    <td>JS, Python, Solidity</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2022</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="https://github.com/MSBivens/Algo-Practice" class="text-body">github.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>A repo of code from solving algorithms.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">TBD</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tools</td>
+                                    <td>TBD</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2022</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="#" class="text-body">github.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>TBD</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
                 <p>Please see <a href="https://github.com/MSBivens">GitHub</a> for a full list of projects. </p>
             </section>
-
             <!-- Technical Skills -->
-            <section class="section" id="techskills_section">
-                <div class="div-section-title">
-                    <p class="txt-section-title">Technical Skills</p>
-                </div>
-                <div id="row">
-                    <!-- Phase 2, each will have a link to view all projects where each were used -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="col img-tech" />
-                    <!-- CSS -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="col img-tech" />
-                    <!-- JavaScript -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="col img-tech" />
-                    <!-- Python -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" class="col img-tech" />
-                    <div class="w-100"></div>
-                    <!-- Flask -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" class="col img-tech" />
-                    <!-- SQL -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" class="col img-tech" />
-                    <!-- Bootstrap -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" class="col img-tech" />
-                    <!-- jQuery -->
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg" class="col img-tech" />
+            <section id="tech-skills">
+                <h2 class="mb-4">Technical Skills</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                        </div>
+                        <div class="col">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                        </div>
+                        <div class="col">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="Python">
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" alt="Flask">
+                        </div>
+                        <div class="col">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="SQL">
+                        </div>
+                        <div class="col">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
+                        </div>
+                    </div>
                 </div>
             </section>
-
             <!-- Interpersonal Skills -->
-            <section class="section" id="inter_section">
-                <div class="div-section-title">
-                    <p class="txt-section-title">Interpersonal Skills</p>
-                </div>
-                <div class="row">
-                    <div class="col text-center">
-                        <div class="div-skill-box">
-                            <span class="span-icon">
-                                <link href='https://css.gg/album.css' rel='stylesheet'><i class="gg-album"></i>
-                            </span>
-                            <div>
-                                <p class="skill-header">Agile Project Management</p>
-                                <p class="skill-description">Experience with leading global team using Agile</p>
+            <section id="inter-skills">
+                <h2 class="mb-4">Interpersonal Skills</h2>
+                <div class="container">
+                    <div class="row gy-3 mb-4">
+                        <div class="col d-flex mb-4">
+                            <div class="position-relative">
+                                <div class="icon"><link href='https://css.gg/album.css' rel='stylesheet'><i class="gg-album"></i></div>
+                                <h4>Agile Project Management</h4>
+                                <p>Experience with leading global team using Agile management practices.</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col text-center div-skill-box">
-                        <span class="span-icon">
-                            <link href='https://css.gg/community.css' rel='stylesheet'><i class="gg-community"></i>
-                        </span>
-                        <div>
-                            <p class="skill-header">Community Development</p>
-                            <p class="skill-description">Guided creation and growth of communities</p>
+                        <div class="col d-flex mb-4">
+                            <div class="position-relative">
+                                <div class="icon"><link href='https://css.gg/community.css' rel='stylesheet'><i class="gg-community"></i></div>
+                                <h4>Community Development</h4>
+                                <p>Guided creation and growth of communities around brands and shared goals.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col text-center div-skill-box">
-                        <span class="span-icon">
-                            <link href='https://css.gg/calendar-dates.css' rel='stylesheet'><i class="gg-calendar-dates"></i>
-                        </span>
-                        <div>
-                            <p class="skill-header">Time Management</p>
-                            <p class="skill-description">Managed several projects concurrently</p>
+                        <div class="col d-flex mb-4">
+                            <div class="position-relative">
+                                <div class="icon"><link href='https://css.gg/calendar-dates.css' rel='stylesheet'><i class="gg-calendar-dates"></i></div>
+                                <h4>Time Management</h4>
+                                <p>Successfully managed several projects concurrently with multiple teams.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col text-center div-skill-box">
-                        <span class="span-icon">
-                            <link href='https://css.gg/attribution.css' rel='stylesheet'><i class="gg-attribution"></i>
-                        </span>
-                        <div>
-                            <p class="skill-header">Conflict Communication</p>
-                            <p class="skill-description">Found a balance between conflicting opinions</p>
+                        <div class="w-100"></div>
+                        <div class="col d-flex mb-4">
+                            <div class="position-relative">
+                                <div class="icon"><link href='https://css.gg/attribution.css' rel='stylesheet'><i class="gg-attribution"></i></div>
+                                <h4>Conflict Communication</h4>
+                                <p>Capable of finding a balance between conflicting opinions and determining a shared path forward.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col text-center div-skill-box">
-                        <span class="span-icon">
-                            <link href='https://css.gg/list-tree.css' rel='stylesheet'><i class="gg-list-tree"></i>
-                        </span>
-                        <div>
-                            <p class="skill-header">Decision Making</p>
-                            <p class="skill-description">Decisive in path forward</p>
+                        <div class="col d-flex mb-4">
+                            <div class="position-relative">
+                                <div class="icon"><link href='https://css.gg/list-tree.css' rel='stylesheet'><i class="gg-list-tree"></i></div>
+                                <h4>Decision Making</h4>
+                                <p>Able to make decisive decisions when appropriate.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col text-center div-skill-box">
-                        <span class="span-icon">
-                            <link href='https://css.gg/arrow-long-right-c.css' rel='stylesheet'><i class="gg-arrow-long-right-c"></i>
-                        </span>
-                        <div>
-                            <p class="skill-header">Strategic Planning</p>
-                            <p class="skill-description">Capable of using feedback and making adjustments</p>
+                        <div class="col d-flex mb-4">
+                            <div class="position-relative">
+                                <div class="icon"><link href='https://css.gg/arrow-long-right-c.css' rel='stylesheet'><i class="gg-arrow-long-right-c"></i></div>
+                                <h4>Strategic Planning</h4>
+                                <p>Proficient with utilising feedback and making adjustments.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-
             <!-- Professional Experience -->
-            <section class="section" id="proxp_section">
-                <div class="div-section-title">
-                    <p class="txt-section-title">Professional Experience</p>
+            <section id="pro-xp">
+                <h2 class="mb-4">Professional Experience</h2>
+                <div class="container">
+                    <div class="row">
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Coding Dojo</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Title</td>
+                                    <td>Developer in Training</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2022 - Present</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="https://www.codingdojo.com/" class="text-body">codingdojo.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>A software development boot camp teaching web fundamentals and a full Python stack.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Freelance</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Title</td>
+                                    <td>Project Manager, Web3 Operator</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2021 - Present</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="https://www.msbivens.com/" class="text-body">msbivens.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>Project management and various web3 operating services.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Bullseye Contracting</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Title</td>
+                                    <td>Co-Owner</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2017 - 2021</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>A roofing and construction contracting business.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <div class="div-project-container">
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">Coding Dojo</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Title</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Developer in Training</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2022 - Present</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text"><a href="https://www.codingdojo.com/" class="project-link">codingdojo.com</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">A software development boot camp teaching web fundamentals and a full Python stack.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">Freelance</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Title</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">PM / Web3 Operator</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2021 - Present</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text"><a href="https://www.msbivens.com/" class="project-link">msbivens.com</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Project management and various web3 operating services.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">Bullseye Contracting</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Title</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Co-Owner</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2017 - 2021</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">N/A</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">A roofing and construction contracting business.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">UT Health San Antonio</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Title</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Student Success Center Intern</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2021</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text"><a href="https://www.uthscsa.edu/academics/nursing/student-success" class="project-link">uthscsa.edu</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Provider of services to support nursing students in in academics and professional development.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">Texas State University</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Title</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">GA for Community Standards</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2020 - 2021</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text"><a href="https://studentinvolvement.txstate.edu/" class="project-link">txstate.edu</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Supporting students with service opportunities, student organizations, and activities.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">University of Idaho</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Title</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">FSL Coordinator</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2019-2020</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text"><a href="https://www.uidaho.edu/student-life/greek" class="project-link">uidaho.edu</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Center supporting campus fraternity and sorority organizations.</div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="container">
+                    <div class="row">
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">UT Health San Antonio</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Title</td>
+                                    <td>Student Success Center Intern</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2021</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="ttps://www.uthscsa.edu/academics/nursing/student-success" class="text-body">uthscsa.edu</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>Provider of services to support nursing students in academic and professional development.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Texas State University</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Title</td>
+                                    <td>GA for Community Standards</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2020 - 2021</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="https://studentinvolvement.txstate.edu/" class="text-body">txstate.edu</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>Supporting students with service opportunities, student organizations, and activities.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">University of Idaho</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Title</td>
+                                    <td>FSL Coordinator</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2019 - 2020</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="https://www.uidaho.edu/student-life/greek" class="text-body">uidaho.edu</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>Center supporting campus fraternity and sorority organizations.</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </section>
-
             <!-- Personal Experience -->
-            <section class="section" id="perxp_section">
-                <div class="div-section-title">
-                    <p class="txt-section-title">Personal Experience</p>
-                </div>
-                <div class="div-project-container">
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">Publish0x</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Title</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Journey to Web3</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2022 - Present</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text"><a href="https://www.publish0x.com/journey-to-web3" class="project-link">publish0x.com</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">A blog series following my journey from coding newbie to working in web3.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">Delta Sigma Phi</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Title</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Lead Advisor</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2021 - Present</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text"><a href="https://www.deltasigvandals.org/" class="project-link">deltasigvandals.org</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Leading a team of advisors that provide support for a collegiate organization.</div>
-                                </div>
-                            </div>
-                        </div>
+            <section id="per-xp">
+                <h2 class="mb-4">Personal Experience</h2>
+                <div class="container">
+                    <div class="row">
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">TheDrop</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Title</td>
+                                    <td>Founder</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2021 - 2022</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="https://www.thedrop.news/" class="text-body">thedrop.news</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>Weekly newsletter covering NFT events, news, tools, and resources for collectors</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Publish0x</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Title</td>
+                                    <td>Journey to Web3</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2022 - Present</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="https://www.publish0x.com/journey-to-web3" class="text-body">publish0x.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>A blog series following my journey from coding newbie to working in web3.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Delta Sigma Phi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Title</td>
+                                    <td>Lead Advisor</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2021 - Present</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="https://www.deltasigvandals.org/" class="text-body">deltasigvandals.org</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>Leading a team of advisors that provide support for a collegiate organization.</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </section>
-
-            <!-- Non-Techncal Projects -->
-            <section class="section" id="nontechpro_section">
-                <div class="div-section-title">
-                    <p class="txt-section-title">Non-Technical Projects</p>
-                </div>
-                <div class="div-project-container">
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">NFT Project Lead</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Org</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">LifeOfMuskNFT</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2021 - 2022</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text"><a href="https://lifeofmusknft.com/" class="project-link">lifeofmusknft.com</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Led global team in development of NFT project with a dedicated Decentraland exhibit.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">SOP Manual Development</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Org</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Texas State University</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2021</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">N/A</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Led the development of departmental SOPs for conduct investigations and office policies.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="div-project-block">
-                        <div class="div-project-block-content">
-                            <div class="project-header">Pro Devo Modules</div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Org</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">UT Health San Antonio</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Year</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">2021</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">http://</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">N/A</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="div-project-block-content end">
-                            <div class="div-project-block-content-left">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Headline</div>
-                                </div>
-                            </div>
-                            <div class="div-project-block-content-right">
-                                <div class="div-project-block-text">
-                                    <div class="normal-text">Redeveloped a collection of educational and professional development modules for a digital format.</div>
-                                </div>
-                            </div>
-                        </div>
+            <!-- Non-Technical Projects -->
+            <section id="ntpro">
+                <h2 class="mb-4">Non-Technical Projects</h2>
+                <div class="container">
+                    <div class="row">
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">LifeOfMuskNFT</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Title</td>
+                                    <td>Project Manager</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2021 - 2022</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="https://lifeofmusknft.com/" class="text-body">lifeofmusknft.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>Led global team in development of NFT project with a dedicated Decentraland exhibit.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Texas State University</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Title</td>
+                                    <td>SOP Manual Development</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2021</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="https://studentinvolvement.txstate.edu/" class="text-body">txstate.edu</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>Led the development of departmental SOPs for conduct investigations and office policies.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table w-25 col mr-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">UT Health San Antonio</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Title</td>
+                                    <td>Pro Devo Modules</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td>
+                                    <td>2021</td>
+                                </tr>
+                                <tr>
+                                    <td>http:/</td>
+                                    <td><a href="ttps://www.uthscsa.edu/academics/nursing/student-success" class="text-body">uthscsa.edu</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Headline</td>
+                                    <td>Redeveloped a collection of educational and professional development modules for a digital format.</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </section>
-
             <!-- Education -->
-            <section class="section" id="edu_section">
-                <div class="div-section-title">
-                    <p class="txt-section-title">Education</p>
-                </div>
-                <div>
-                    <div class="accordion" id="accordionBasic">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <p>Google Project Management Certificate</p>
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionBasic">
-                                <div class="accordion-body">
-                                    <p>Coursera, 2021</p>
-                                    <p>Achieved after completion of six courses developed by Google for the Coursera platform</p>
-                                    <p><a href="https://www.credly.com/badges/7ef9ba5c-35a4-4b01-8b74-85dfeaf5a7d8/linked_in_profile">Verify with Credly</a></p>
-                                </div>
+            <section id="education">
+                <h2 class="mb-4">Education</h2>
+                <div class="accordion accordion-flush" id="edu-accordian">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Google Project Management Certificate
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#edu-accordian">
+                            <div class="accordion-body">
+                                <p>Coursera, 2021</p>
+                                <p>Achieved after completion of six courses developed by Google for the Coursera platform</p>
+                                <p><a href="https://www.credly.com/badges/7ef9ba5c-35a4-4b01-8b74-85dfeaf5a7d8/linked_in_profile">Verify with Credly</a></p>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <p>University of Idaho B.S.</p>
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionBasic">
-                                <div class="accordion-body">
-                                    <p>B.S. Political Science, Philosophy, 2019</p>
-                                    <p><a href="https://nscverifications.org/degreeverify/">Verify with National Student Clearinghouse</a></p>
-                                </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                University of Idaho B.S.
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#edu-accordian">
+                            <div class="accordion-body">
+                                <p>B.S. Political Science, Philosophy, 2019</p>
+                                <p><a href="https://nscverifications.org/degreeverify/">Verify with National Student Clearinghouse</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
             <!-- Contact -->
-            <section class="section" id="contact_section">
-                <div class="div-section-title">
-                    <p class="txt-section-title">Contact</p>
-                </div>
-                <div>
-                    <form action="//submit.form" id="contact-form" method="post" onsubmit="return ValidateForm(this)">
-                        <div class="form-floating">
-                            <input type="text" class="form-control" id="contactname" placeholder="Name">
-                            <label for="floatingPassword">Name</label>
+            <section id="contact">
+                <h2 class="mb-4">Contact</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col d-flex flex-wrap mb-4 justify-between">
+                            <!-- <div class="position-relative d-flex"> -->
+                                <div class="icon mr-4"><a href="https://linkedin.com/in/msbivens/"><img src="images/linkedin.png"></a></div>
+                                <div class="icon mr-4"><a href="https://github.com/MSBivens"><img src="images/github.png"></a></div>
+                                <div class="icon"><a href="https://twitter.com/MSBivens_"><img src="images/twitter.png"></a></div>
+                            <!-- </div> -->
                         </div>
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Email address</label>
-                        </div>
-                        <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave your message here" id="floatingTextarea" style="height: 100px"></textarea>
-                            <label for="floatingTextarea">Message</label>
-                        </div>
-                    </form>
+                    </div>
                 </div>
             </section>
         </div>
     </div>
+    
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <!-- Custom JS -->
-    <script src="js/script.js"></script>
-    <Script src = "js/jquery.js"> </script>
-    <Script src = "js/bootstrap.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- Local JavaScript Links -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.min.js.map"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/popper.js.map"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
-
-<!-- Needed Implementation -->
-<!-- HELP Collapse side nav in smaller screens -->
-<!-- HELP Spacing between Nav & Main, would a max width solve this but how to implement? -->
-<!-- Update Professional Experience -->
-<!-- Update Personal Experience -->
-<!-- Update Technical Projects -->
-<!-- Update Non-Technical Projects -->
