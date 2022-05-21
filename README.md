@@ -71,8 +71,8 @@ This project contains all of the code for my personal portfolio website and incl
 - [ X ] Launch v1
 - [ X ] Refactor front-end
 - [ X ] Implement JavaScript
+- [ ] Update to predominantly projects display
 - [ ] Collate XP & Project sections & use tags
-- [ ] Add a "projects" page
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -113,4 +113,3 @@ Project Link: [https://github.com/MSBivens/personal_portfolio_website](https://g
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
