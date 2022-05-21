@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+![Website Image](https://github.com/MSBivens/personal_portfolio_website/blob/master/external_images/portfolio_header.PNG)
 
 This project contains all of the code for my personal portfolio website and included technical and non-technical project information, professional experiences, and more.
 
@@ -68,13 +68,11 @@ This project contains all of the code for my personal portfolio website and incl
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Launch v1
-- [ ] Implement Semantic HTML
-- [ ] Refactor front-end
-- [ ] Implement JavaScript
-- [ ] Implement database for projects
+- [ X ] Launch v1
+- [ X ] Refactor front-end
+- [ X ] Implement JavaScript
 - [ ] Collate XP & Project sections & use tags
-- [ ] Add an "projects" page
+- [ ] Add a "projects" page
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -95,6 +93,7 @@ Project Link: [https://github.com/MSBivens/personal_portfolio_website](https://g
 ## Acknowledgments
 
 * [Devicon](https://devicon.dev/)
+* [Colorlib](https://colorlib.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
