@@ -1,10 +1,9 @@
-import Image from "next/image";
 import React from "react";
 import TopProjectItem from "./TopProjectItem";
 
 import lotteryImg from "../public/assets/project-images/lottery.PNG";
-import templateImg from "../public/assets/project-images/dao-template.PNG";
-import dnftImg from "../public/assets/project-images/dnft.PNG";
+import templateImg from "../public/assets/project-images/dao-template.png";
+import dnftImg from "../public/assets/project-images/dnft.png";
 // import propertyImg from '../public/assets/project-images/property.png';
 
 const TopProjects = () => {
