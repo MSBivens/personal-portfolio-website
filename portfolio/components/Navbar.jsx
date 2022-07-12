@@ -19,7 +19,6 @@ const Navbar = () => {
           height="100"
           alt="/"
         />
-        <div></div>
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -58,11 +57,14 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* Mobile Menu */}
+      {/* Overlay */}
       <div
         className={
           nav ? "md: hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
         }
       >
+        {/* Side Menu */}
         <div
           className={
             nav
