@@ -44,7 +44,7 @@ const Contact = () => {
                 <p>Blockend Developer</p>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact
-                  me and let's talk.
+                  me and let&#39;s talk.
                 </p>
               </div>
               <div>
