@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
@@ -6,13 +6,32 @@ import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
   };
 
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener("scroll", handleShadow);
+  }, []);
+
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
+    <div
+      // style={{ backgroundColor: `${navBg}` }}
+      className={
+        shadow
+          ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300"
+          : "fixed w-full h-20 z-[100]"
+      }
+    >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
           src="/../public/assets/navLogo.png"
