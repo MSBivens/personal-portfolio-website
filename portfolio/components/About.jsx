@@ -15,7 +15,7 @@ const About = () => {
           <p className="py-2 text-gray-600">A self-taught blockend developer</p>
           <p className="py-2 text-gray-600">
             My name is Mike, after leading teams as a project manager working
-            with NFTs and metaverses I continuing my work with web3 as a
+            with NFTs and metaverses I&#39;m continuing my work with web3 as a
             developer. Through my background in higher education, I have
             developed organizational and interpersonal skills that support
             strong critical assessment and advanced my ability to work with
