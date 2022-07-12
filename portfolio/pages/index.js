@@ -18,8 +18,8 @@ export default function Home() {
       </Head>
       <Main />
       <About />
-      <TopProjects />
       <TechStack />
+      <TopProjects />
       <Contact />
     </div>
   );
