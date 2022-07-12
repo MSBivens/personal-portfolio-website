@@ -17,7 +17,6 @@ export default function Home() {
           content="web development, programming, web3, smart contracts, DAO"
         />
       </Head>
-      <Navbar />
       <Main />
       <About />
       <TopProjects />
