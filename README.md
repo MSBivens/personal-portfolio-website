@@ -1,17 +1,10 @@
-<!-- To Do:
-## Screenshot of completed project
-## Include acknowledgements 
- -->
 <div id="top"></div>
 
-
-
-
 <!-- PROJECT SHIELDS -->
+
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/msbivens/)
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
-
 
 <!-- PROJECT HEADER -->
 <br />
@@ -27,8 +20,6 @@
     <br />
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -46,70 +37,54 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
-![Website Image](https://github.com/MSBivens/personal_portfolio_website/blob/master/external_images/portfolio_header.PNG)
+![Website Image](portfolio-header.PNG)
 
 This project contains all of the code for my personal portfolio website and included technical and non-technical project information, professional experiences, and more.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 ### Built With
 
-* [Bootstrap](https://getbootstrap.com)
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
-- [ X ] Launch v1
-- [ X ] Refactor front-end
-- [ X ] Implement JavaScript
-- [ ] Update to predominantly projects display
-- [ ] Collate XP & Project sections & use tags
+- [ ] Create a PoK gallery
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
-Mike Bivens - [@MSBivens_](https://twitter.com/MSBivens_) - mikebiv95@gmail.com
+Mike Bivens - [@MSBivens\_](https://twitter.com/MSBivens_) | mikebiv95@gmail.com
 
 Project Link: [https://github.com/MSBivens/personal_portfolio_website](https://github.com/MSBivens/personal_portfolio_website)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-* [Devicon](https://devicon.dev/)
-* [Colorlib](https://colorlib.com/)
+- [Devicon](https://devicon.dev/)
+- [React Icons](https://react-icons.github.io/react-icons)
+- [Fireclint Repo](https://github.com/fireclint/portfolio-nextjs)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
