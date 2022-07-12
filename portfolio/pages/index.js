@@ -1,10 +1,10 @@
 import Head from "next/head";
-// import Image from "next/image";
 import Main from "../components/Main";
 import About from "../components/About";
 import TechStack from "../components/TechStack";
 import TopProjects from "../components/TopProjects";
 import Contact from "../components/Contact";
+import Blogs from "../components/Blogs";
 
 export default function Home() {
   return (
@@ -20,6 +20,7 @@ export default function Home() {
       <About />
       <TechStack />
       <TopProjects />
+      <Blogs />
       <Contact />
     </div>
   );
