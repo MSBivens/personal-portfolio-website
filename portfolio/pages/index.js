@@ -16,6 +16,7 @@ export default function Home() {
           name="keywords"
           content="web development, programming, web3, smart contracts, DAO"
         />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main />
       <About />
