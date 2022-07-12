@@ -11,7 +11,7 @@ import Alchemy from "../public/assets/tech-stack/alchemy.png";
 
 const TechStack = () => {
   return (
-    <div className="w-full lg:h-screen p-2">
+    <div id="techstack" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Tech Stack

@@ -33,44 +33,46 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image
-          src="/../public/assets/navLogo.png"
-          width="100"
-          height="100"
-          alt="/"
-        />
+        <Link href="/">
+          <Image
+            src="/../public/assets/navLogo.png"
+            width="100"
+            height="100"
+            alt="/"
+          />
+        </Link>
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/">
+            <Link href="/#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/">
+            <Link href="/#topprojects">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Top Projects
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#techstack">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Tech Stack
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#blogs">
               <li className="ml-10 text-sm uppercase hover:border-b">Blogs</li>
             </Link>
-            <Link href="/">
+            <Link href="/#orgs">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Organizations
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/portfolio">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Portfolio
               </li>
@@ -121,25 +123,25 @@ const Navbar = () => {
               <Link href="/">
                 <li className="py-4 text-sm">Home</li>
               </Link>
-              <Link href="/">
+              <Link href="/#about">
                 <li className="py-4 text-sm">About</li>
               </Link>
-              <Link href="/">
+              <Link href="/#topprojects">
                 <li className="py-4 text-sm">Top Projects</li>
               </Link>
-              <Link href="/">
+              <Link href="/#techstack">
                 <li className="py-4 text-sm">Tech Stack</li>
               </Link>
-              <Link href="/">
+              <Link href="/#blogs">
                 <li className="py-4 text-sm">Blogs</li>
               </Link>
-              <Link href="/">
+              <Link href="/#orgs">
                 <li className="py-4 text-sm">Organizations</li>
               </Link>
-              <Link href="/">
+              <Link href="/#contact">
                 <li className="py-4 text-sm">Contact</li>
               </Link>
-              <Link href="/">
+              <Link href="/portfolio">
                 <li className="py-4 text-sm">Portfolio</li>
               </Link>
             </ul>
