@@ -2,8 +2,8 @@ import React from "react";
 import BlogsItem from "./BlogsItem";
 
 import publish0xImg from "../public/assets/blog-images/publish0x.PNG";
-import mediumImg from "../public/assets/blog-images/medium.png";
-import mirrorImg from "../public/assets/blog-images/mirror.png";
+import mediumImg from "../public/assets/blog-images/medium.PNG";
+import mirrorImg from "../public/assets/blog-images/mirror.PNG";
 
 const Blogs = () => {
   return (
