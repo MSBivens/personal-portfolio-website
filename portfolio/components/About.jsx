@@ -12,7 +12,7 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            // A self-taught smart contract developer
+            // A self-taught blockend developer
           </p>
           <p className="py-2 text-gray-600">
             My name is Mike, after leading teams as a project manager working
