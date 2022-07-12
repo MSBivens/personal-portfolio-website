@@ -12,9 +12,7 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-600">
-            // A self-taught blockend developer
-          </p>
+          <p className="py-2 text-gray-600">A self-taught blockend developer</p>
           <p className="py-2 text-gray-600">
             My name is Mike, after leading teams as a project manager working
             with NFTs and metaverses I continuing my work with web3 as a
