@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import MeImage from "../public/assets/meImage.jpg";
 
 const About = () => {
@@ -28,9 +29,11 @@ const About = () => {
             impact. I am here to buidl tools and resources that help users and
             support communities.
           </p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">
-            You can find most of my projects here.
-          </p>
+          <Link href="/portfolio">
+            <p className="py-2 text-gray-600 underline cursor-pointer">
+              You can find most of my projects here.
+            </p>
+          </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image className="rounded-xl" src={MeImage} alt="/" />
