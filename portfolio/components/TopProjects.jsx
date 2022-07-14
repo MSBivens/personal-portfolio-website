@@ -4,7 +4,7 @@ import TopProjectItem from "./TopProjectItem";
 import lotteryImg from "../public/assets/project-images/lottery.PNG";
 import templateImg from "../public/assets/project-images/dao-template.png";
 import dnftImg from "../public/assets/project-images/dnft.png";
-// import propertyImg from '../public/assets/project-images/property.png';
+import wagmiWebsiteIMG from "../public/assets/project-images/wagmiWebsite.png";
 
 const TopProjects = () => {
   return (
@@ -33,12 +33,12 @@ const TopProjects = () => {
             projectUrl="https://github.com/MSBivens/dnft_character_builder"
             techStack="Solidity | Python | Flask | Brownie | Chainlink"
           />
-          {/* <TopProjectItem */}
-          {/* title="Property Finder" */}
-          {/* backgroundImg={propertyImg} */}
-          {/* projectUrl="/property" */}
-          {/* techStack={techStack} */}
-          {/* /> */}
+          <TopProjectItem
+            title="WAGMI Squad Website"
+            backgroundImg={wagmiWebsiteIMG}
+            projectUrl="https://wagmi-squad-website.vercel.app/"
+            techStack="JavaScript | Next.js | Tailwind CSS"
+          />
         </div>
       </div>
     </div>
