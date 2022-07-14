@@ -11,6 +11,18 @@ const portfolio = () => {
         <h2 className="py-4">Nearly all of my projects</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           <PortfolioItem
+            title="WAGMI Squad Website"
+            tagline="The website for a DAO squad."
+            projectUrl="https://github.com/MSBivens/wagmi-squad-website"
+            techStack="JavaScript | Next.js | Tailwind"
+          />
+          <PortfolioItem
+            title="Road to Web3 Week10"
+            tagline="A decentralized Twitter with GraphQL and Lens Protocol."
+            projectUrl="https://github.com/MSBivens/road-to-web3-week10-decentralized-twitter"
+            techStack="JavaScript | Next.js | GraphQL | Lens API | Tailwind"
+          />
+          <PortfolioItem
             title="Portfolio Website"
             tagline="A personal & portfolio website for me."
             projectUrl="https://github.com/MSBivens/personal_portfolio_website"
