@@ -1,7 +1,7 @@
 import React from "react";
 import TopProjectItem from "./TopProjectItem";
 
-import rowImg from "../public/assets/project-images/row.PNG";
+import rowImg from "../public/assets/project-images/row.png";
 import theDropImg from "../public/assets/project-images/theDrop.png";
 import cofunImg from "../public/assets/project-images/cofun.png";
 import wagmiWebsiteIMG from "../public/assets/project-images/wagmiWebsite.png";
