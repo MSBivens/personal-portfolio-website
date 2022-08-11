@@ -1,9 +1,9 @@
 import React from "react";
 import TopProjectItem from "./TopProjectItem";
 
-import lotteryImg from "../public/assets/project-images/lottery.PNG";
-import templateImg from "../public/assets/project-images/dao-template.png";
-import dnftImg from "../public/assets/project-images/dnft.png";
+import rowImg from "../public/assets/project-images/row.PNG";
+import theDropImg from "../public/assets/project-images/theDrop.png";
+import cofunImg from "../public/assets/project-images/cofun.png";
 import wagmiWebsiteIMG from "../public/assets/project-images/wagmiWebsite.png";
 
 const TopProjects = () => {
@@ -16,22 +16,22 @@ const TopProjects = () => {
         <h2 className="py-4">Highlighted Portfolio Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <TopProjectItem
-            title="Lottery Game"
-            backgroundImg={lotteryImg}
-            projectUrl="https://github.com/MSBivens/learn-web3-dao-graph"
-            techStack="Solidity | Hardhat | The Graph | Ethers.js | Next.js"
+            title="WIP: Road to Web3 Analytics"
+            backgroundImg={rowImg}
+            projectUrl="https://github.com/MSBivens/RW3-PoK-Analytics"
+            techStack="JavaScript | Next.js | Alchemy API | Kudos API | Tailwind CSS"
           />
           <TopProjectItem
-            title="DAO Template"
-            backgroundImg={templateImg}
-            projectUrl="https://github.com/MSBivens/fcc-solidity-javascript-course-dao-template"
-            techStack="Solidity | TypeScript | Hardhat | Openzeppelin | Ethers.js"
+            title="WIP: TheDrop"
+            backgroundImg={theDropImg}
+            projectUrl="https://github.com/MSBivens/thedrop-website"
+            techStack="JavaScript | Next.js | Alchemy API | Tailwind CSS"
           />
           <TopProjectItem
-            title="dNFT Character Builder"
-            backgroundImg={dnftImg}
-            projectUrl="https://github.com/MSBivens/dnft_character_builder"
-            techStack="Solidity | Python | Flask | Brownie | Chainlink"
+            title="WIP: Community Funding"
+            backgroundImg={cofunImg}
+            projectUrl="https://github.com/MSBivens/community-funding"
+            techStack="Solidity | Hardhat | Next.js | The Graph | IPFS"
           />
           <TopProjectItem
             title="WAGMI Squad Website"
