@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactImg from "../public/assets/contact.jpg";
@@ -28,7 +27,7 @@ const Contact = () => {
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
-        <div className="grid lg:grid-cols-5 gap-8">
+        <div className="grid lg:grid-cols-5">
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full ">
@@ -43,13 +42,13 @@ const Contact = () => {
                 <h2 className="py-2">Mike Bivens</h2>
                 <p>Blockend Developer</p>
                 <p className="py-4">
-                  I am available for freelance or full-time positions. Contact
-                  me and let&#39;s talk.
+                  I am available for freelance positions. Contact me and
+                  let&#39;s talk!
                 </p>
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
-                <div className="flex items-center justify-between py-4">
+                <div className="flex items-center justify-evenly py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
@@ -59,16 +58,13 @@ const Contact = () => {
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaTwitter />
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
                 </div>
               </div>
             </div>
           </div>
 
           {/* right */}
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          {/* <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form
                 onSubmit={handleSubmit}
@@ -134,7 +130,7 @@ const Contact = () => {
                 </button>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
