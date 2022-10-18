@@ -1,5 +1,5 @@
 import React from "react";
-import BlogsItem from "./BlogsItem";
+// import BlogsItem from "./BlogsItem";
 
 import publish0xImg from "../public/assets/blog-images/publish0x.PNG";
 import mediumImg from "../public/assets/blog-images/medium.PNG";
