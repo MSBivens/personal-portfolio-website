@@ -4,7 +4,6 @@ import About from "../components/About";
 import TechStack from "../components/TechStack";
 import TopProjects from "../components/TopProjects";
 import Blogs from "../components/Blogs";
-import Orgs from "../components/Orgs";
 import Contact from "../components/Contact";
 
 export default function Home() {
