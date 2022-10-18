@@ -1,5 +1,5 @@
 import React from "react";
-import BuidlCard from "../components/BuidlCard";
+import BuidlCard from "./BuidlCard";
 import { buidling } from "../data";
 
 const About = () => {

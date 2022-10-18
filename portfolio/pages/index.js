@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Main from "../components/Main";
-import About from "../components/About-old";
+import About from "../components/About";
 import TechStack from "../components/TechStack";
 import TopProjects from "../components/TopProjects";
 import Blogs from "../components/Blogs";
