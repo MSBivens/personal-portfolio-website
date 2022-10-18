@@ -45,7 +45,7 @@ const Sidebar = () => {
         </a>
       </div>
 
-      {/* Contacts */}
+      {/* Notifications */}
       <div
         className="py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500"
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
@@ -55,18 +55,18 @@ const Sidebar = () => {
         <p className="my-2">Contact Via Socials</p>
       </div>
 
-      <button className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none">
+      <button className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none">
         Code
       </button>
       <button className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none">
         Coaching
       </button>
-      <button
+      {/* <button
         onClick={changeTheme}
         className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 "
       >
         Toggle Theme
-      </button>
+      </button> */}
     </>
   );
 };
