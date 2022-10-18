@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Main from "../components/Main";
-import About from "../components/About";
+import About from "../components/About-old";
 import TechStack from "../components/TechStack";
 import TopProjects from "../components/TopProjects";
 import Blogs from "../components/Blogs";
@@ -18,13 +18,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Main />
       <About />
-      <TechStack />
-      <TopProjects />
-      <Blogs />
-      <Orgs />
-      <Contact />
     </div>
   );
 }
