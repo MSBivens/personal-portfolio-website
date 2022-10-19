@@ -127,7 +127,7 @@ export const projects: IProject[] = [
 
   {
     name: "Community Funding",
-    image_path: "/assets/project-images/",
+    image_path: "/assets/project-images/cofun.png",
     deployed_url: "https://www.example.com",
     github_url: "https://github.com/MSBivens/community-funding",
     description: "Web3 version of Kickstarter",
