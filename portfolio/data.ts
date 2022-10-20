@@ -134,3 +134,44 @@ export const projects: IProject[] = [
     key_techs: ["NextJS", "Tailwind CSS", "Hardhat", "OpenZeppelin"],
   },
 ];
+
+export const contents: IContent[] = [
+  {
+    name: "Web3 Topics Blog",
+    image_path: "/assets/content-images/medium.png",
+    content_url: "https://medium.com/@msbivens_",
+    description: "A blog covering a range of web3 topics",
+    key_words: [
+      "Web3",
+      "Development",
+      "Smart Contracts",
+      "Private Nodes",
+      "DAOs",
+      "NFTs",
+    ],
+  },
+  {
+    name: "Journey to Web3",
+    image_path: "/assets/content-images/journey.png",
+    content_url: "https://www.publish0x.com/journey-to-web3",
+    description:
+      "This blog followed my journey from no code to working in web3",
+    key_words: ["Web3", "Development", "Smart Contracts", "Dev Bootcamps"],
+  },
+
+  {
+    name: "Podcasts",
+    image_path: "/assets/content-images/podchaser.png",
+    content_url:
+      "https://www.podchaser.com/creators/mike-bivens-107a99qAVv/appearances",
+    description:
+      "I've been a host and guest for a number of podcasts, find my credits here.",
+    key_words: [
+      "Mental Health",
+      "Social Justice",
+      "Conservation",
+      "Video Games",
+      "Comic Books",
+    ],
+  },
+];

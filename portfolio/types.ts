@@ -20,3 +20,11 @@ export interface IProject {
   github_url: string;
   key_techs: string[];
 }
+
+export interface IContent {
+  name: string;
+  description: string;
+  image_path: string;
+  content_url: string;
+  key_words: string[];
+}
